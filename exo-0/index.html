@@ -11,55 +11,55 @@
 
         /* Section 1 */   
 
-        var name = "Joe";
-        var city = 'London';
-        var age = 32;
-        var isRed = true;
-        var isOld = age > 80;
+        var name = "Joe"; //declare une variable String name de valeur Joe
+        var city = 'London'; //declare une variable String city de valeur london
+        var age = 32; //declare une variable Number age de valeur 32
+        var isRed = true; //declare une variable Boolean isRed de valeur true
+        var isOld = age > 80; //declare une variable Boolean isOld de valeur true si age > 80
 
-        var previousJobs = ['lawyer', 'developper', 'Professionnal climber'];
+        var previousJobs = ['lawyer', 'developper', 'Professionnal climber']; //declare une variable array previousJobs rempli de valeur avec 3 entrées de type String
 
-        function info(height, weight) {
-            if (height > 180) {
+        function info(height, weight) {  // declare la fonction info ayant en parametre height et weight
+            if (height > 180) { //condition 
                 console.log('Vous êtes grand');
             }
-            if (weight < 0) {
+            if (weight < 0) { //condition si 
                 console.log('oups, there is a problem');
-            } else if ( weight < 15) {
+            } else if ( weight < 15) { //condition sinon si
                 console.log('Are you that slim ?')
-            } else {
+            } else { // condition sinon
                 console.log('Good !')
             }
         }
 
-        info(165, 45);
+        info(165, 45); //appelle de la fonction info avec un parametre 165, 45
 
-        var myHeight = 175;
-        var myWeight = 86;
+        var myHeight = 175; //declaration de variable 
+        var myWeight = 86; //declaration de variable
 
-        info(myHeight, myWeight);
+        info(myHeight, myWeight); // appelle de la fonction info avec en parametre une variable myHeight, myWeight declaré juste avant
 
-        info(myHeight + 15, myWeight - 100);
+        info(myHeight + 15, myWeight - 100); // appelle de la fonction info avec en parametre une variable myHeight+15, myWeight-100 declaré juste avant
 
-        function toUpper(variable) {
+        function toUpper(variable) { //declare une nouvelle fonction toUpper avec une variable en parametre et qui return la variable passé dans la méthode toUpperCase(); pour la mettre en Maj
             return variable.toUpperCase();
         }
 
-        var upperName = toUpper(name);
+        var upperName = toUpper(name); //declare une varialbe upperName qui a pour valeur une variable name passé dans la fonction toUpper
 
-        for (i = 0; i < 3; i = i + 1) {
-            console.log(previousJobs[i]);
+        for (i = 0; i < 3; i = i + 1) { // une boucle for qui commence a 0 jusqu'a 3 qui va de +1 a chaque tour
+            console.log(previousJobs[i]);// qui affiche dans la console les valeurs du tableau de variable previous job.
         }
 
         /* Section 2: */
 
-        // afficher la ville dans laquele Joe vit.     
+        //afficher la ville dans laquele Joe vit.     
 
-        // afficher si Joe est roux ou pas.
+        //afficher si Joe est roux ou pas.
 
         /* Section 3 */
 
-        // console.log(myVariable);
+        console.log(myVariable);
 
         </script>
 

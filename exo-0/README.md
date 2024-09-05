@@ -23,7 +23,7 @@ En utilisant les variables déclarées plus haut, afficher dans la console les d
 Décommenter la ligne puis recharger la page.
 
 ```js
-// console.log(myVariable);
+console.log(myVariable);
 ```
 
 Que se passe-t-il et pourquoi ?
